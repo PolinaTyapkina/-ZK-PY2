@@ -103,13 +103,13 @@ class Coat:
 class BankAccount:
     def __init__(self, account_number: int, deposit: (float, int)):
         """
-            Создание и подготовка к работе объекта "Банковский счет"
+        Создание и подготовка к работе объекта "Банковский счет"
 
-            :param account_number: Номер банковского счета
-            :param deposit: Депозит
+        :param account_number: Номер банковского счета
+        :param deposit: Депозит
 
-            Примеры:
-            >>> bank_account = BankAccount(20125,1000.6)    # инициализация экземпляра класса
+        Примеры:
+        >>> bank_account = BankAccount(20125,1000.6)    # инициализация экземпляра класса
         """
         if not isinstance(account_number, int):
             raise TypeError('Номер банковского счета должен быть целым')
